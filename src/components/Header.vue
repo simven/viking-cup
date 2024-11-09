@@ -13,7 +13,7 @@
       <nav class="hidden md:flex justify-end items-center" id="navbar-sticky">
         <ul class="flex flex-wrap items-center p-2.5">
           <li>
-            <RouterLink to="/a-propos" activeClass="bg-primary" class="rounded-md mx-2 px-2.5 lg:px-5 py-1.5 transition-all duration-200 ease-in-out hover:bg-primary">Viking!Cup</RouterLink>
+            <RouterLink to="/a-propos" activeClass="bg-primary" class="rounded-md mx-2 px-2.5 lg:px-5 py-1.5 transition-all duration-200 ease-in-out hover:bg-primary">Viking!<span class="text-red">Cup</span></RouterLink>
           </li>
           <li>
             <RouterLink to="/regles" activeClass="bg-primary" class="rounded-md mx-2 px-2.5 lg:px-5 py-1.5 transition-all duration-200 ease-in-out hover:bg-primary">Règles</RouterLink>
