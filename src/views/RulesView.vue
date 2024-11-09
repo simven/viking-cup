@@ -1,5 +1,5 @@
 <template>
-About
+Rules
 </template>
 
 <style>

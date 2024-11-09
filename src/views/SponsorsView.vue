@@ -1,5 +1,5 @@
 <template>
-About
+Sponsors
 </template>
 
 <style>

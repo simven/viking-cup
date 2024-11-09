@@ -1,5 +1,5 @@
 <template>
-About
+Register
 </template>
 
 <style>

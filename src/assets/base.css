@@ -1,14 +1,7 @@
 :root {
   --red: #C70202;
   --bg-primary: #3E3E3E;
-  --bg-secondary: #1F1F1F;
-}
-
-:root {
-  --white: #ffffff;
-  --black: #000000;
-  --red: #C70202;
-  --bg-primary: #3E3E3E;
+  --bg-primary-light: #5C5C5CB2;
   --bg-secondary: #1F1F1F;
 }
 
@@ -26,20 +19,20 @@ body {
   color: white;
   background: var(--bg-primary);
   line-height: 1.6;
-  font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
+  font-family: 'Figtree', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-finder;
+}
+
+h2 {
+  font-size: clamp(1rem, 2vw, 3rem) !important;
+}
+
+p {
+  @apply text-xl;
 }

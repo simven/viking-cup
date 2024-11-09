@@ -1,5 +1,5 @@
 <template>
-About
+Participate
 </template>
 
 <style>
