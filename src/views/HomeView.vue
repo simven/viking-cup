@@ -12,7 +12,7 @@ import HomeLinkItem from '@/components/HomeLinkItem.vue'
       <div class="col-span-1 md:col-span-3 flex flex-col items-center justify-center">
         <h1 class="hidden md:block uppercase text-4xl">
           Viking!<span class="text-red">Cup</span>
-          2K25
+          2025
         </h1>
 
         <Countdown />
