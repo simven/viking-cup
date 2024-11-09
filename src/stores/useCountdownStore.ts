@@ -18,7 +18,7 @@ export const useCountdownStore = defineStore('countdown', () => {
 
   const updateCountdown = (targetDate: Date) => {
     const now = new Date();
-    const timeDiff = targetDate - now;
+    const timeDiff = targetDate.valueOf() - now.valueOf();
 
     if (timeDiff > 0) {
       countdown.value.days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
