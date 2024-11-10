@@ -29,9 +29,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-size: clamp(1rem, 2vw, 3rem) !important;
-}
-
-p {
-  @apply text-xl;
+  font-size: clamp(1rem, 2vw, 2.7rem) !important;
 }

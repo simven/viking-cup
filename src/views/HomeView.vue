@@ -10,7 +10,7 @@ import HomeLinkItem from '@/components/HomeLinkItem.vue'
       </div>
 
       <div class="col-span-1 md:col-span-3 flex flex-col items-center justify-center">
-        <h1 class="hidden md:block uppercase text-4xl">
+        <h1 class="hidden md:block uppercase text-7xl lg:text-8xl text-center p-2 px-4">
           Viking!<span class="text-red">Cup</span>
           2025
         </h1>
@@ -18,13 +18,15 @@ import HomeLinkItem from '@/components/HomeLinkItem.vue'
         <Countdown />
 
         <div class="mt-8">
-          <RouterLink to="/inscription" class="font-finder bg-red rounded-md p-2 transition-all duration-200 hover:saturate-150">S'INSCRIRE</RouterLink>
+          <RouterLink to="/inscription" class="font-finder bg-red rounded-md p-4 text-xl transition-all duration-200 hover:saturate-150">
+            S'INSCRIRE
+          </RouterLink>
         </div>
       </div>
     </div>
 
     <div class="pt-12 pb-8 text-center">
-      <p>La Viking!Cup, c'est <span class="text-red font-bold">bien plus</span> qu'une simple compétition de drift.</p>
+      <p class="text-xl sm:text-2xl">La Viking!Cup, c'est <span class="text-red font-bold">bien plus</span> qu'une simple compétition de drift.</p>
     </div>
 
     <div class="grid home-items gap-4 md:gap-6 bg-secondary rounded-xl py-4 px-6 md:px-12 uppercase">

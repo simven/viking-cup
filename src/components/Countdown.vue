@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted } from 'vue';
-import { useCountdownStore } from '@/stores/useCountdownStore'; // Assure-toi du chemin correct vers le store
+import { useCountdownStore } from '@/stores/useCountdownStore';
 
 const countdownStore = useCountdownStore();
 const { countdown, startCountdown, stopCountdown } = countdownStore;
