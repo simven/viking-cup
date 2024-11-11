@@ -11,3 +11,9 @@ defineProps<{
     </RouterLink>
   </div>
 </template>
+
+<style scoped>
+h2 {
+  font-size: clamp(1rem, 2vw, 2.7rem) !important;
+}
+</style>

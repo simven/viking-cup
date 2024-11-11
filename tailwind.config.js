@@ -23,6 +23,9 @@ export default {
         'sm-black': '0 0 0 1px black',
         'md-black': '0 0 0 2px black',
       },
+      lineHeight: {
+        'title': 1.15
+      }
     },
   },
   plugins: [],

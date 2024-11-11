@@ -10,7 +10,7 @@ import HomeLinkItem from '@/components/HomeLinkItem.vue'
       </div>
 
       <div class="col-span-1 md:col-span-3 flex flex-col items-center justify-center">
-        <h1 class="hidden md:block uppercase text-7xl lg:text-8xl text-center p-2 px-4">
+        <h1 class="hidden md:block uppercase text-center p-2 px-4">
           Viking!<span class="text-red">Cup</span>
           2025
         </h1>
