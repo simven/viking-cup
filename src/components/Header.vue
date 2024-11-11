@@ -32,7 +32,7 @@ watch(
       <div class="flex justify-between">
         <!-- Logo -->
         <div class="w-12 sm:w-20">
-          <RouterLink to="/"><img alt="Viking Cup" src="/img/v-cup-logo.png" width="80" /></RouterLink>
+          <RouterLink to="/"><img alt="Viking Cup" src="/img/v-cup.png" width="80" /></RouterLink>
         </div>
 
         <!-- NavBar | Desktop -->

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Title from '@/components/Title.vue'
+import RegisterButton from '@/components/RegisterButton.vue'
 </script>
 
 <template>
@@ -11,6 +12,8 @@ import Title from '@/components/Title.vue'
     <div>
       <h2>COMING SOON 😉</h2>
     </div>
+
+    <RegisterButton />
   </div>
 </template>
 

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Title from '@/components/Title.vue'
+import RegisterButton from '@/components/RegisterButton.vue'
 </script>
 
 <template>
@@ -35,6 +36,8 @@ import Title from '@/components/Title.vue'
         <img alt="Viking! Drinks" src="/img/v-drinks.png" />
       </div>
     </div>
+
+    <RegisterButton />
   </div>
 </template>
 

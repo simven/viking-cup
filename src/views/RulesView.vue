@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Title from '@/components/Title.vue'
+import RegisterButton from '@/components/RegisterButton.vue'
 </script>
 
 <template>
@@ -18,6 +19,8 @@ import Title from '@/components/Title.vue'
         Voir les règles
       </a>
     </div>
+
+    <RegisterButton />
   </div>
 </template>
 

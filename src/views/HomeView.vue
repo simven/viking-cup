@@ -6,7 +6,7 @@ import HomeLinkItem from '@/components/HomeLinkItem.vue'
 <template>
     <div class="grid home-head gap-2">
       <div class="col-span-1 md:col-span-2">
-        <img alt="Viking Cup" src="/img/v-cup-dates-logo.png" />
+        <img alt="Viking Cup" src="/img/v-cup-dates.png" />
       </div>
 
       <div class="col-span-1 md:col-span-3 flex flex-col items-center justify-center">

@@ -11,6 +11,8 @@ export default {
         finder: ["Finder", "sans-serif"]
       },
       colors: {
+        primary: 'var(--bg-primary)',
+        secondary: 'var(--bg-secondary)',
         red: 'var(--red)',
       },
       backgroundColor: {
@@ -25,7 +27,8 @@ export default {
       },
       lineHeight: {
         'title': 1.15
-      }
+      },
+
     },
   },
   plugins: [],
