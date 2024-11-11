@@ -96,7 +96,7 @@
             href="https://www.tiktok.com/@normandie.racing"
             target="_blank"
             class="flex items-center">
-            <div class="flex justify-center items-center rounded-md bg-white hover:bg-red w-[27px] h-[29px]">
+            <div class="flex justify-center items-center rounded-md bg-white hover:bg-red w-[28px] h-[29px]">
               <font-awesome-icon class="text-secondary transition-all duration-300 ease-in-out" :icon="['fab', 'tiktok']" size="lg" />
             </div>
           </a>
