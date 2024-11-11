@@ -69,4 +69,8 @@ import HomeLinkItem from '@/components/HomeLinkItem.vue'
 .home-items {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
+
+h1 {
+  font-size: clamp(1.5rem, 0.4rem + 3.5vw, 4rem) !important;;
+}
 </style>
