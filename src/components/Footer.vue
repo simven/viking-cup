@@ -1,8 +1,9 @@
 <script setup lang="ts">
+const currentYear = new Date().getFullYear();
 </script>
 
 <template>
-  <footer class="relative w-full bg-secondary">
+  <footer id="footer" class="relative w-full bg-secondary">
     <div class="grid footer-items gap-4 w-11/12	md:w-10/12 mx-auto pt-20 pb-10">
       <ul class="flex flex-col p-2.5 gap-3 col-span-8 sm:col-span-4 md:col-span-2">
         <li>
@@ -117,8 +118,9 @@
     </div>
 
     <div class="flex border-t border-primary">
-      <div class="w-11/12	md:w-10/12 mx-auto py-4 flex justify-center text-center">
+      <div class="w-11/12	md:w-10/12 mx-auto py-4 flex flex-col justify-center text-center">
         <h3>VIKING!<span class="text-red">CUP</span> by normandie racing</h3>
+        <p class="text-xs">© {{ currentYear }} Simon Vennat • Normandie Racing</p>
       </div>
     </div>
   </footer>
