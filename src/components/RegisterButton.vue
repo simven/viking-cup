@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue';
 
-const isAboveFooter = ref(false);
-const button = ref(null);
+const isAboveFooter = ref<boolean>(false);
+const button = ref<HTMLElement|null>(null);
 
 function checkFooterPosition() {
   const footer = document.getElementById('footer');
