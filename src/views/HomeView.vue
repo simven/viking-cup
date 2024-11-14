@@ -1,76 +1,59 @@
 <script setup lang="ts">
 import Countdown from '@/components/Countdown.vue'
-import HomeLinkItem from '@/components/HomeLinkItem.vue'
 </script>
 
 <template>
-    <div class="grid home-head gap-2">
-      <div class="col-span-1 md:col-span-2">
-        <img alt="Viking Cup" src="/img/v-cup-dates.png" />
-      </div>
+  <div>
+    <div class="xl:bg-[url('/img/cfd.jpg')] xl:bg-cover xl:h-[120vh] xl:shadow-xl">
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-2 pt-4">
+        <div class="col-span-1 md:col-span-2 flex justify-center items-center">
+          <img class="w-4/5 max-w-lg" alt="Viking Cup" src="/img/vk-cup-dates.png" />
+        </div>
 
-      <div class="col-span-1 md:col-span-3 flex flex-col items-center justify-center">
-        <h1 class="hidden md:block uppercase text-center p-2 px-4">
-          Viking!<span class="text-red">Cup</span>
-          2025
-        </h1>
+        <div class="col-span-1 md:col-span-3 flex flex-col items-center justify-center">
+          <div class="my-6 md:my-4">
+            <h1 class="uppercase text-center p-2 px-4 leading-none">
+              Viking!<span class="text-red">Cup</span> 2025
+            </h1>
 
-        <Countdown />
+            <p class="text-center">La première compétition régionale de drift en France</p>
+          </div>
 
-        <div class="mt-8">
-          <RouterLink to="/inscription" class="font-finder bg-red rounded-md p-4 text-xl transition-all duration-200 hover:saturate-150">
-            S'INSCRIRE
-          </RouterLink>
+          <Countdown />
+
+          <div class="mt-8">
+            <RouterLink to="/inscription" class="font-finder bg-red rounded-md p-4 text-xl transition-all duration-200 hover:saturate-150">
+              S'INSCRIRE
+            </RouterLink>
+          </div>
         </div>
       </div>
+
+      <h2 class="pt-20 xl:pt-2 text-center">GAGNE TA PLACE POUR LE CFD 2026 !</h2>
     </div>
 
-    <div class="pt-12 pb-8 text-center">
-      <p class="text-xl sm:text-2xl">La Viking!Cup, c'est <span class="text-red font-bold">bien plus</span> qu'une simple compétition de drift.</p>
+    <div class="px-10">
+      <div class="py-12 text-center max-w-5xl m-auto">
+        <h3>RENDEZ-VOUS au circuit de la ferté gaucher</h3>
+
+        <p class="py-4">Pour cette première édition, la <span class="font-finder">VIKING!<span class="text-red">CUP</span></span> se déroulera en Ile de France au circuit de la Ferté Gaucher.</p>
+
+        <p>Dans le but de maximiser le temps de roulage pour tous, un système de double piste est mis en place. Une piste <span class="font-finder text-red">COMPETITION</span> réservé au déroulement de la <span class="font-finder">VIKING!<span class="text-red">CUP</span></span> et une piste <span class="font-finder text-red">LOISIR</span> accessible à tout les inscrits.</p>
+      </div>
+
+      <div class="max-w-4xl mx-auto">
+        <img class="rounded-xl border-8 border-black" src="/img/vk-cup-track.png" alt="Circuit Viking Cup" loading="lazy" />
+      </div>
     </div>
-
-    <div class="grid home-items gap-4 md:gap-6 bg-secondary rounded-xl py-4 px-6 md:px-12 uppercase">
-      <HomeLinkItem link-path="/a-propos">
-        <template #label>
-          Viking!<span class="text-red">Cup</span>
-        </template>
-      </HomeLinkItem>
-
-      <HomeLinkItem link-path="/regles">
-        <template #label>
-          Les règles
-        </template>
-      </HomeLinkItem>
-
-      <HomeLinkItem link-path="/participer">
-        <template #label>
-          Comment <span class="whitespace-nowrap">participer ?</span>
-        </template>
-      </HomeLinkItem>
-
-      <HomeLinkItem link-path="/sponsors">
-        <template #label>
-          Sponsors
-        </template>
-      </HomeLinkItem>
-    </div>
+  </div>
 </template>
 
 <style scoped>
-.home-head {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-@media (min-width: 768px) {
-  .home-head {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
-}
-
-.home-items {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
 h1 {
-  font-size: clamp(1.5rem, 0.4rem + 3.5vw, 4rem) !important;;
+  font-size: clamp(1.5rem, 1.4rem + 3vw, 3.7rem) !important;;
+}
+
+h2 {
+  font-size: clamp(1.3rem, 1rem + 2vw, 2.7rem) !important;
 }
 </style>

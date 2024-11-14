@@ -27,12 +27,20 @@ watch(
 </script>
 
 <template>
-  <header class="sticky w-screen top-0 right-0 left-0 inset-0 z-40 bg-secondary shadow-md">
-    <nav class="px-6">
-      <div class="flex justify-between">
+  <header class="fixed w-screen top-0 right-0 left-0 inset-0 z-30 bg-secondary shadow-md h-16 sm:h-24">
+    <nav class="px-6 h-full">
+      <div class="flex justify-between items-center h-full">
         <!-- Logo -->
-        <div class="w-12 sm:w-20">
-          <RouterLink to="/"><img alt="Viking Cup" src="/img/v-cup.png" width="80" /></RouterLink>
+        <div class="w-12 sm:w-16 z-40">
+          <RouterLink to="/"><img alt="Viking Cup" src="/img/vk-cup.png" width="80" /></RouterLink>
+        </div>
+
+        <div class="flex sm:hidden items-center justify-center absolute inset-0 z-30">
+          <RouterLink
+            to="/inscription"
+            class="font-finder text-sm bg-red rounded-md px-3 py-2 text-md transition-all duration-200 hover:saturate-150">
+            S'INSCRIRE
+          </RouterLink>
         </div>
 
         <!-- NavBar | Desktop -->
@@ -58,7 +66,7 @@ watch(
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/sponsors" activeClass="bg-black" class="rounded-md px-1 md:px-2 lg:px-5 py-1.5 transition-all duration-200 ease-in-out hover:bg-black">
+            <RouterLink to="/sponsors" activeClass="bg-black" class="hidden rounded-md px-1 md:px-2 lg:px-5 py-1.5 transition-all duration-200 ease-in-out hover:bg-black">
               Sponsors
             </RouterLink>
           </li>
@@ -100,7 +108,7 @@ watch(
               Comment participer
             </RouterLink>
           </li>
-          <li class="delay-[280ms]">
+          <li class="delay-[280ms] hidden">
             <RouterLink to="/sponsors" activeClass="bg-black" class="rounded-md px-5 py-1.5 hover:bg-black">
               Sponsors
             </RouterLink>

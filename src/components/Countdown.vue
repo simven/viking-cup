@@ -15,7 +15,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class=" bg-secondary rounded-xl mt-10 md:mt-4">
+  <div class="bg-secondary rounded-xl">
     <div class="px-4 md:px-6 lg:px-10 py-3 flex flex-row gap-4 md:gap-8 text-center">
 
       <div class="flex flex-col items-center gap-2">

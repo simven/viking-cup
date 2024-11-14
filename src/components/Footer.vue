@@ -58,13 +58,13 @@ const currentYear = new Date().getFullYear();
         </li>
         <li>
           <div class="flex items-center">
-            <img src="/img/v-cup.png" alt="Viking!Cup" class="w-10 h-10" />
+            <img src="/img/vk-cup.png" alt="Viking!Cup" class="w-10 h-10" />
             <span class="pl-2">Viking!Cup</span>
           </div>
         </li>
         <li>
           <div class="flex items-center">
-            <img src="/img/v-drinks.png" alt="Viking!Drinks" class="w-10 h-10" />
+            <img src="/img/vk-drinks.png" alt="Viking!Drinks" class="w-10 h-10" />
             <span class="pl-2">Viking!Drinks</span>
           </div>
         </li>

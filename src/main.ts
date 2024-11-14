@@ -10,6 +10,8 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faBars, faX, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faSquareFacebook, faSquareInstagram, faSquareYoutube, faTiktok } from '@fortawesome/free-brands-svg-icons';
+import Vue3Toastify, { type ToastContainerOptions } from 'vue3-toastify';
+import 'vue3-toastify/dist/index.css';
 
 
 library.add(faBars, faX, faPhone, faEnvelope, faSquareFacebook, faSquareInstagram, faSquareYoutube, faTiktok);
@@ -17,6 +19,10 @@ library.add(faBars, faX, faPhone, faEnvelope, faSquareFacebook, faSquareInstagra
 const app = createApp(App)
 
 app.component('font-awesome-icon', FontAwesomeIcon);
+
+app.use(Vue3Toastify, {
+  autoClose: 3000,
+} as ToastContainerOptions);
 
 app.use(createPinia())
 app.use(router)
