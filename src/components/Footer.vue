@@ -119,8 +119,8 @@ const currentYear = new Date().getFullYear();
 
     <div class="flex border-t border-primary">
       <div class="w-11/12	md:w-10/12 mx-auto py-4 flex flex-col justify-center text-center">
-        <h3>VIKING!<span class="text-red">CUP</span> by normandie racing</h3>
-        <p class="text-xs">© {{ currentYear }} Simon Vennat • Normandie Racing</p>
+        <h3>VIKING!<span class="text-red">CUP</span> by Normandie Racing</h3>
+        <p class="text-xs">© {{ currentYear }} Simon Vennat • Thibault Blondel</p>
       </div>
     </div>
   </footer>
