@@ -5,41 +5,38 @@ import ImageModalable from '@/components/ImageModalable.vue'
 
 <template>
   <div>
-    <div class="px-10">
-      <div class="grid grid-cols-1 md:grid-cols-5 gap-2 pt-4">
-        <div class="col-span-1 md:col-span-2 flex justify-center items-center">
-          <img alt="Viking Cup" src="/img/vk-cup-dates.webp" width="500" height="500" />
-        </div>
+    <div class="relative overflow-hidden md:h-screen">
+      <img src="/img/cfd.webp" class="hidden md:block absolute z-10 object-cover object-bottom w-full h-full">
+      <img src="/img/cfd-ffsa-tag.webp" class="hidden md:block bottom-5 left-5 absolute z-10 object-cover object-top" width="64" height="86">
 
-        <div class="col-span-1 md:col-span-3 flex flex-col items-center justify-center">
-          <div class="my-6 md:my-4">
-            <h1 class="uppercase text-center p-2 px-4 leading-none">
-              Viking!<span class="text-red">Cup</span> 2025
-            </h1>
-
-            <p class="text-center">La première compétition régionale de drift en France</p>
+      <div class="relative pt-16 sm:pt-24 px-10 z-20">
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-2 pt-4">
+          <div class="col-span-1 md:col-span-2 flex justify-center items-center">
+            <img alt="Viking Cup" src="/img/vk-cup-dates.webp" width="400" height="400" />
           </div>
 
-          <Countdown />
+          <div class="col-span-1 md:col-span-3 flex flex-col items-center justify-center">
+            <div class="my-6 md:my-4">
+              <h1 class="uppercase text-center py-2 px-4 leading-none">
+                Viking!<span class="text-red">Cup</span> 2025
+              </h1>
 
-          <div class="mt-8">
-            <RouterLink to="/inscription" class="font-finder bg-red rounded-md p-4 text-xl transition-all duration-200 hover:saturate-150">
-              S'INSCRIRE
-            </RouterLink>
+              <p class="text-center">La première compétition régionale de drift en France</p>
+            </div>
+
+            <Countdown />
+
+            <div class="my-8">
+              <RouterLink to="/inscription" class="font-finder bg-red rounded-md py-3 px-4 text-xl transition-all duration-200 hover:saturate-150">
+                S'INSCRIRE
+              </RouterLink>
+            </div>
           </div>
         </div>
-      </div>
 
-      <h2 class="pt-20 text-center">GAGNE TA PLACE POUR LE CFD 2026 !</h2>
-
-      <div class="max-w-3xl mx-auto mt-5">
-        <ImageModalable
-          :img-class="'rounded-xl cursor-pointer object-contain'"
-          :src="'/img/cfd.webp'"
-          :alt="'Championnat de France de Drift'"
-          :width="'750'"
-          :height="'501'"
-        />
+        <div class="text-center mt-20 md:mt-0">
+          <h2 class="leading-none">GAGNE TA PLACE POUR LE CFD 2026 !</h2>
+        </div>
       </div>
     </div>
 

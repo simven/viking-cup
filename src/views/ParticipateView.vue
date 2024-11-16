@@ -4,7 +4,7 @@ import TitleSecondary from '@/components/TitleSecondary.vue'
 </script>
 
 <template>
-  <div class="flex flex-col justify-center items-center pt-6 sm:pt-14 max-w-7xl m-auto px-10 gap-4">
+  <div class="flex flex-col justify-center items-center pt-32 sm:pt-40 max-w-7xl m-auto px-10 gap-4">
     <Title>
       <template #title>Comment participer ?</template>
     </Title>

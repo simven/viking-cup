@@ -5,7 +5,7 @@ import ImageModalable from '@/components/ImageModalable.vue'
 </script>
 
 <template>
-  <div class="flex flex-col justify-center items-center pt-6 sm:pt-14 max-w-7xl m-auto px-10">
+  <div class="flex flex-col justify-center items-center pt-32 sm:pt-40 pb-16 max-w-7xl m-auto px-10">
     <Title>
       <template #title>
         <span class="whitespace-nowrap">Viking!<span class="text-red">Cup</span> ?</span>
