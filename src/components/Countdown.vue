@@ -24,7 +24,7 @@ onUnmounted(() => {
           <span class="bg-black rounded-md px-2 py-1 w-7 md:w-8 text-lg md:text-2xl font-bold">{{ countdown.days.toString().padStart(2, '0').at(1) }}</span>
         </div>
 
-        <h3 class="uppercase text-xs md:text-sm">jours</h3>
+        <h2 class="uppercase text-xs md:text-sm">jours</h2>
       </div>
 
       <div class="flex flex-col items-center gap-2">
@@ -33,7 +33,7 @@ onUnmounted(() => {
           <span class="bg-black rounded-md px-2 py-1 w-7 md:w-8 text-lg md:text-2xl font-bold">{{ countdown.hours.toString().padStart(2, '0').at(1) }}</span>
         </div>
 
-        <h3 class="uppercase text-xs md:text-sm">heures</h3>
+        <h2 class="uppercase text-xs md:text-sm">heures</h2>
       </div>
 
       <div class="flex flex-col items-center gap-2">
@@ -42,7 +42,7 @@ onUnmounted(() => {
           <span class="bg-black rounded-md px-2 py-1 w-7 md:w-8 text-lg md:text-2xl font-bold">{{ countdown.minutes.toString().padStart(2, '0').at(1) }}</span>
         </div>
 
-        <h3 class="uppercase text-xs md:text-sm">minutes</h3>
+        <h2 class="uppercase text-xs md:text-sm">minutes</h2>
       </div>
 
       <div class="flex flex-col items-center gap-2">
@@ -51,7 +51,7 @@ onUnmounted(() => {
           <span class="bg-black rounded-md px-2 py-1 w-7 md:w-8 text-lg md:text-2xl font-bold">{{ countdown.seconds.toString().padStart(2, '0').at(1) }}</span>
         </div>
 
-        <h3 class="uppercase text-xs md:text-sm">secondes</h3>
+        <h2 class="uppercase text-xs md:text-sm">secondes</h2>
       </div>
 
     </div>

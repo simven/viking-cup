@@ -3,6 +3,7 @@ import Title from '@/components/Title.vue'
 import { toast } from 'vue3-toastify'
 import { computed, ref } from 'vue'
 import { useDateStore } from '@/stores/useDateStore'
+import 'vue3-toastify/dist/index.css';
 
 const dateStore = useDateStore();
 const { formatDate } = dateStore;
@@ -106,7 +107,7 @@ const checkRules = () => {
           <div class="flex flex-col justify-center gap-7">
             <fieldset class="flex flex-col gap-4">
               <template v-if="isDeadlinePassed">
-                <label class="whitespace-nowrap">
+                <label>
                   <input
                     type="checkbox"
                     class="mr-2 accent-red"
@@ -117,7 +118,7 @@ const checkRules = () => {
                 </label>
               </template>
               <template v-else>
-                <label class="whitespace-nowrap">
+                <label>
                   <input
                     type="checkbox"
                     name="entry.438622691"
@@ -130,7 +131,7 @@ const checkRules = () => {
                 </label>
               </template>
 
-              <label class="whitespace-nowrap" v-for="(option, index) in childOptions" :key="index">
+              <label v-for="(option, index) in childOptions" :key="index">
                 <input
                   type="checkbox"
                   name="entry.438622691"
@@ -159,7 +160,7 @@ const checkRules = () => {
         <transition name="fade" mode="out-in">
           <p v-if="greatPrice">
             Montant à payer avant le <span class="font-bold underline">{{ formatDate(greatPriceDeadline) }}</span> pour valider l'inscription :
-            <span class="font-bold text-red">{{greatPrice}} €</span> <span class="line-through text-sm">{{ totalAmount }} €</span>
+            <span class="font-finder text-red text-2xl">{{greatPrice}} €</span> <span class="line-through text-sm">{{ totalAmount }} €</span>
           </p>
 
           <p v-else-if="totalAmount">

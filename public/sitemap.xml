@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Page d'accueil -->
+    <url>
+        <loc>https://viking-cup.simonvennat.fr/</loc>
+        <lastmod>2024-11-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Page de présentation de l'événement -->
+    <url>
+        <loc>https://viking-cup.simonvennat.fr/a-propos</loc>
+        <lastmod>2024-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- Page du règlement -->
+    <url>
+        <loc>https://viking-cup.simonvennat.fr/regles</loc>
+        <lastmod>2024-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <!-- Page comment participer -->
+    <url>
+        <loc>https://viking-cup.simonvennat.fr/participer</loc>
+        <lastmod>2024-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- Page d'inscription -->
+    <url>
+        <loc>https://viking-cup.simonvennat.fr/inscription</loc>
+        <lastmod>2024-11-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+</urlset>

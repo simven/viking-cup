@@ -1,13 +1,14 @@
 <script setup lang="ts">
 import Countdown from '@/components/Countdown.vue'
+import ImageModalable from '@/components/ImageModalable.vue'
 </script>
 
 <template>
   <div>
-    <div class="xl:bg-[url('/img/cfd.jpg')] xl:bg-cover xl:h-[120vh] xl:shadow-xl">
+    <div class="px-10">
       <div class="grid grid-cols-1 md:grid-cols-5 gap-2 pt-4">
         <div class="col-span-1 md:col-span-2 flex justify-center items-center">
-          <img class="w-4/5 max-w-lg" alt="Viking Cup" src="/img/vk-cup-dates.png" />
+          <img alt="Viking Cup" src="/img/vk-cup-dates.webp" width="500" height="500" />
         </div>
 
         <div class="col-span-1 md:col-span-3 flex flex-col items-center justify-center">
@@ -29,7 +30,17 @@ import Countdown from '@/components/Countdown.vue'
         </div>
       </div>
 
-      <h2 class="pt-20 xl:pt-2 text-center">GAGNE TA PLACE POUR LE CFD 2026 !</h2>
+      <h2 class="pt-20 text-center">GAGNE TA PLACE POUR LE CFD 2026 !</h2>
+
+      <div class="max-w-3xl mx-auto mt-5">
+        <ImageModalable
+          :img-class="'rounded-xl cursor-pointer object-contain'"
+          :src="'/img/cfd.webp'"
+          :alt="'Championnat de France de Drift'"
+          :width="'750'"
+          :height="'501'"
+        />
+      </div>
     </div>
 
     <div class="px-10">
@@ -42,7 +53,13 @@ import Countdown from '@/components/Countdown.vue'
       </div>
 
       <div class="max-w-4xl mx-auto">
-        <img class="rounded-xl border-8 border-black" src="/img/vk-cup-track.png" alt="Circuit Viking Cup" loading="lazy" />
+        <ImageModalable
+          :img-class="'rounded-xl cursor-pointer border-8 border-black'"
+          :src="'/img/vk-cup-track.webp'"
+          :alt="'Circuit Viking Cup'"
+          :width="'896'"
+          :height="'464'"
+        />
       </div>
     </div>
   </div>

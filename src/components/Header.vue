@@ -31,8 +31,8 @@ watch(
     <nav class="px-6 h-full">
       <div class="flex justify-between items-center h-full">
         <!-- Logo -->
-        <div class="w-12 sm:w-16 z-40">
-          <RouterLink to="/"><img alt="Viking Cup" src="/img/vk-cup.png" width="80" /></RouterLink>
+        <div class="z-40">
+          <RouterLink to="/"><img alt="Viking Cup" src="/img/vk-cup.webp" class="w-14 sm:w-20" width="80" height="80" /></RouterLink>
         </div>
 
         <div class="flex sm:hidden items-center justify-center absolute inset-0 z-30">

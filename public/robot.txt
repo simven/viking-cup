@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /sponsors
+
+Sitemap: https://viking-cup.simonvennat.fr/sitemap.xml

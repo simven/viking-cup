@@ -52,19 +52,19 @@ const currentYear = new Date().getFullYear();
         </li>
         <li>
           <a href="https://www.normandie-racing.fr" target="_blank" class="flex items-center hover:text-red">
-            <img src="/img/nr.png" alt="Normandie Racing" class="w-10 h-10" />
+            <img src="/img/nr.webp" alt="NR" width="40" height="40" />
             <span class="pl-2">Normandie Racing</span>
           </a>
         </li>
         <li>
           <div class="flex items-center">
-            <img src="/img/vk-cup.png" alt="Viking!Cup" class="w-10 h-10" />
+            <img src="/img/vk-cup.webp" alt="Viking Cup" class="w-10 h-10" width="40" height="40" />
             <span class="pl-2">Viking!Cup</span>
           </div>
         </li>
         <li>
           <div class="flex items-center">
-            <img src="/img/vk-drinks.png" alt="Viking!Drinks" class="w-10 h-10" />
+            <img src="/img/vk-drinks.webp" alt="Viking Drinks" class="w-10 h-10" width="40" height="40" />
             <span class="pl-2">Viking!Drinks</span>
           </div>
         </li>
@@ -77,25 +77,29 @@ const currentYear = new Date().getFullYear();
         <li class="flex gap-3">
           <a
             href="https://www.facebook.com/driftnormand"
-            target="_blank">
+            target="_blank"
+            aria-label="Facebook">
             <font-awesome-icon class="hover:text-red transition-all duration-300 ease-in-out" :icon="['fab', 'square-facebook']" size="2xl" />
           </a>
 
           <a
             href="https://www.instagram.com/normandie.racing"
-            target="_blank">
+            target="_blank"
+            aria-label="Instagram">
             <font-awesome-icon class="hover:text-red transition-all duration-300 ease-in-out" :icon="['fab', 'square-instagram']" size="2xl" />
           </a>
 
           <a
             href="https://www.youtube.com/@normandieracing9167"
-            target="_blank">
+            target="_blank"
+            aria-label="Youtube">
             <font-awesome-icon class="hover:text-red transition-all duration-300 ease-in-out" :icon="['fab', 'square-youtube']" size="2xl" />
           </a>
 
           <a
             href="https://www.tiktok.com/@normandie.racing"
             target="_blank"
+            aria-label="TikTok"
             class="flex items-center">
             <div class="flex justify-center items-center rounded-md bg-white hover:bg-red w-[28px] h-[29px]">
               <font-awesome-icon class="text-secondary transition-all duration-300 ease-in-out" :icon="['fab', 'tiktok']" size="lg" />

@@ -45,6 +45,10 @@ h3 {
   font-size: clamp(1.1rem, 0.3rem + 1.7vw, 2.1rem) !important;
 }
 
+h4 {
+  font-size: clamp(1rem, 0.2rem + 1.5vw, 1.7rem) !important;
+}
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
