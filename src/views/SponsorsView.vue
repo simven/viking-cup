@@ -13,6 +13,3 @@ import Title from '@/components/Title.vue'
     </div>
   </div>
 </template>
-
-<style>
-</style>
