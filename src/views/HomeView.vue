@@ -6,8 +6,8 @@ import ImageModalable from '@/components/ImageModalable.vue'
 <template>
   <div>
     <div class="relative overflow-hidden md:h-screen">
-      <img src="/img/cfd.webp" class="hidden md:block absolute z-10 object-cover object-bottom w-full h-full">
-      <img src="/img/cfd-ffsa-tag.webp" class="hidden md:block bottom-5 left-5 absolute z-10 object-cover object-top" width="64" height="86">
+      <img src="/img/cfd.webp" alt="CFD" class="hidden md:block absolute z-10 object-cover object-bottom w-full h-full" />
+      <img src="/img/cfd-ffsa-tag.webp" alt="CFD FFSA" class="hidden md:block bottom-5 left-5 absolute z-10 object-cover object-top" width="64" height="86" />
 
       <div class="relative pt-16 sm:pt-24 px-10 z-20">
         <div class="grid grid-cols-1 md:grid-cols-5 gap-2 pt-4">
