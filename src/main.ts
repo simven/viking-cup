@@ -8,12 +8,12 @@ import router from './router'
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { faBars, faX, faPhone, faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faX, faPhone, faEnvelope, faDownload, faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { faSquareFacebook, faSquareInstagram, faSquareYoutube, faTiktok } from '@fortawesome/free-brands-svg-icons';
 import Vue3Toastify, { type ToastContainerOptions } from 'vue3-toastify';
 
 
-library.add(faBars, faX, faPhone, faEnvelope, faDownload, faSquareFacebook, faSquareInstagram, faSquareYoutube, faTiktok);
+library.add(faBars, faX, faPhone, faEnvelope, faDownload, faArrowUp, faSquareFacebook, faSquareInstagram, faSquareYoutube, faTiktok);
 
 const app = createApp(App)
 
