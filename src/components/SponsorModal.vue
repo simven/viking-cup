@@ -59,7 +59,6 @@ onUnmounted(() => {
           </div>
 
           <div class="w-fit mx-auto">
-
               <div class="flex gap-2.5">
                 <a
                   v-for="(link, index) in sponsor.links"
@@ -70,9 +69,7 @@ onUnmounted(() => {
                   <font-awesome-icon :icon="link.icon" size="xl" />
                 </a>
               </div>
-
           </div>
-
         </div>
 
         <button
