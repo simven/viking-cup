@@ -8,7 +8,7 @@ import ScrollTopButton from '@/components/ScrollTopButton.vue'
 <template>
   <Header />
 
-  <main class="pt-16 sm:pt-24 pb-16">
+  <main>
     <RouterView />
   </main>
 

@@ -3,7 +3,7 @@ import Title from '@/components/Title.vue'
 </script>
 
 <template>
-  <div class="flex flex-col justify-center items-center py-6 sm:py-14 max-w-7xl m-auto px-10">
+  <div class="flex flex-col justify-center items-center py-32 sm:py-40 max-w-7xl m-auto px-10">
     <Title>
       <template #title>
         Règlement Technique
