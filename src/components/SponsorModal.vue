@@ -41,7 +41,7 @@ onUnmounted(() => {
 <template>
   <transition name="fade">
     <div
-      v-if="isModalOpen"
+      v-if="isModalOpen && sponsor"
       class="fixed inset-0 bg-black flex justify-center items-center bg-opacity-70 z-50"
       @click="closeModal">
       <div class="relative m-auto bg-primary-light rounded-lg flex justify-center items-center p-10" @click.stop>
