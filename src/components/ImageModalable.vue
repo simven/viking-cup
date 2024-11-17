@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { defineProps, onUnmounted, watch } from 'vue'
+import { defineProps } from 'vue'
 import { ref } from 'vue';
 import ImageModal from '@/components/ImageModal.vue'
 
@@ -33,22 +33,6 @@ const isModalOpen = ref(false);
 const openModal = () => {
   isModalOpen.value = true;
 };
-
-const closeModal = () => {
-  isModalOpen.value = false;
-};
-
-watch(() => isModalOpen, (newVal) => {
-  if (newVal) {
-    document.body.classList.add('overflow-hidden');
-  } else {
-    document.body.classList.remove('overflow-hidden');
-  }
-});
-
-onUnmounted(() => {
-  document.body.classList.remove('overflow-hidden');
-});
 </script>
 
 <template>
