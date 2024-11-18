@@ -32,6 +32,7 @@ function closeModal() {
 
     <div class="grid grid-cols-4 gap-6 md:gap-10 w-full">
       <div
+        data-aos="fade-up"
         @click="openModal(sponsor)"
         v-for="(sponsor, index) in sponsors"
         :key="index"

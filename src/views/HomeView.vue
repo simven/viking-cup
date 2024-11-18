@@ -9,7 +9,7 @@ import ImageModalable from '@/components/ImageModalable.vue'
       <img src="/img/cfd.webp" alt="CFD" class="hidden md:block absolute z-10 object-cover object-bottom w-full h-full" />
       <img src="/img/cfd-ffsa-tag.webp" alt="CFD FFSA" class="hidden md:block bottom-5 left-5 absolute z-10 object-cover object-top" width="64" height="86" />
 
-      <div class="relative pt-16 sm:pt-24 px-10 z-20">
+      <div data-aos="fade-up" class="relative pt-16 sm:pt-24 px-10 z-20">
         <div class="grid grid-cols-1 md:grid-cols-5 gap-2 pt-4">
           <div class="col-span-1 md:col-span-2 flex justify-center items-center">
             <img alt="Viking Cup" src="/img/vk-cup-dates.webp" width="400" height="400" />
@@ -41,7 +41,7 @@ import ImageModalable from '@/components/ImageModalable.vue'
     </div>
 
     <div class="px-10">
-      <div class="py-12 text-center max-w-5xl m-auto">
+      <div data-aos="fade-up" class="py-12 text-center max-w-5xl m-auto">
         <h3>RENDEZ-VOUS au circuit de la ferté gaucher</h3>
 
         <p class="py-4">Pour cette première édition, la <span class="font-finder">VIKING!<span class="text-red">CUP</span></span> se déroulera en Ile de France au circuit de la Ferté Gaucher.</p>
@@ -51,6 +51,7 @@ import ImageModalable from '@/components/ImageModalable.vue'
 
       <div class="max-w-4xl mx-auto">
         <ImageModalable
+          data-aos="fade-up"
           :img-class="'rounded-xl cursor-pointer border-8 border-black'"
           :src="'/img/vk-cup-track.webp'"
           :alt="'Circuit Viking Cup'"

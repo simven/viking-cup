@@ -79,7 +79,7 @@ const checkRules = () => {
 </script>
 
 <template>
-  <div class="flex flex-col justify-center items-center py-32 sm:py-40 max-w-7xl m-auto px-10 gap-10 md:gap-14 lg:gap-20">
+  <div data-aos="fade-up" class="flex flex-col justify-center items-center py-32 sm:py-40 max-w-7xl m-auto px-10 gap-10 md:gap-14 lg:gap-20">
     <Title>
       <template #title>
         Formulaire de pré-inscription
