@@ -23,9 +23,9 @@ import Title from '@/components/Title.vue'
       </div>
 
       <section>
-        <h2 class="mb-2">1. Véhicules</h2>
+        <h2 data-aos="fade-up" class="mb-2">1. Véhicules</h2>
 
-        <div class="ml-3 md:ml-6 mt-3">
+        <div data-aos="fade-up" class="ml-3 md:ml-6 mt-3">
           <p>Les véhicules participant à la Viking Cup doivent respecter les conditions suivantes :</p>
 
           <ul class="list-disc ml-3 md:ml-6 mt-3">
@@ -39,13 +39,13 @@ import Title from '@/components/Title.vue'
       </section>
 
       <section>
-        <h2 class="mb-2">2. Catégories</h2>
+        <h2 data-aos="fade-up" class="mb-2">2. Catégories</h2>
 
         <div class="ml-4 md:ml-10 mt-3">
           <div class="mb-3">
-            <h3>Loisir</h3>
+            <h3 data-aos="fade-up">Loisir</h3>
 
-            <ul class="list-disc ml-5 md:ml-8">
+            <ul data-aos="fade-up" class="list-disc ml-5 md:ml-8">
               <li>Puissance recommandée : 150 à 300 chevaux.</li>
               <li>Véhicules de série à propulsion arrière uniquement.</li>
               <li>Idéal pour découvrir la compétition.</li>
@@ -53,88 +53,88 @@ import Title from '@/components/Title.vue'
           </div>
 
           <div>
-            <h3>Semi-Pro</h3>
+            <h3 data-aos="fade-up">Semi-Pro</h3>
 
             <div class="ml-3 md:ml-6 mt-3">
-              <p>
+              <p data-aos="fade-up">
                 La catégorie Semi-Pro est conçue comme une catégorie promotionnelle pour les pilotes souhaitant
                 améliorer leurs compétences avec des véhicules modifiés mais encadrés par des limitations techniques.
               </p>
 
-              <div class="mt-3">
+              <div data-aos="fade-up" class="mt-3">
                 <h4>1. Moteur</h4>
                 <ul class="list-disc ml-3 md:ml-6 mt-1.5">
-                <li>
-                  Tous types de moteurs autorisés, dérivés de véhicules de série ayant une production minimale de
-                  1 000 unités.
-                </li>
-                <li>Passage de l’aspiration naturelle à la suralimentation (turbo ou compresseur) autorisé.</li>
-                <li>
-                  Utilisation de composants renforcés : pistons, bielles et vilebrequins forgés, unités de commande
-                  reprogrammables, systèmes d’échappement et d’admission modifiés.
-                </li>
-                <li>
-                  Puissance recommandée : entre 300 et 450 chevaux. Pas de limitation maximale de puissance, mais
-                  les pneus arrière limités à 235 mm influencent les performances optimales.
-                </li>
-                <li>Le protoxyde d'azote (NOS) est strictement interdit.</li>
-              </ul>
+                  <li>
+                    Tous types de moteurs autorisés, dérivés de véhicules de série ayant une production minimale de
+                    1 000 unités.
+                  </li>
+                  <li>Passage de l’aspiration naturelle à la suralimentation (turbo ou compresseur) autorisé.</li>
+                  <li>
+                    Utilisation de composants renforcés : pistons, bielles et vilebrequins forgés, unités de commande
+                    reprogrammables, systèmes d’échappement et d’admission modifiés.
+                  </li>
+                  <li>
+                    Puissance recommandée : entre 300 et 450 chevaux. Pas de limitation maximale de puissance, mais
+                    les pneus arrière limités à 235 mm influencent les performances optimales.
+                  </li>
+                  <li>Le protoxyde d'azote (NOS) est strictement interdit.</li>
+                </ul>
               </div>
 
-              <div class="mt-3">
+              <div data-aos="fade-up" class="mt-3">
                 <h4>2. Transmission et Différentiel</h4>
                 <ul class="list-disc ml-3 md:ml-6 mt-1.5">
-                <li>
-                  Boîtes de vitesses modifiées autorisées uniquement dans le carter d'origine, avec levier en H
-                  (séquentielles interdites).
-                </li>
-                <li>Remplacement ou modification des différentiels autorisés, sauf pour des rapports de transmission rapide.</li>
-                <li>L'essieu arrière doit rester fixé aux points d'origine du châssis.</li>
-              </ul>
+                  <li>
+                    Boîtes de vitesses modifiées autorisées uniquement dans le carter d'origine, avec levier en H
+                    (séquentielles interdites).
+                  </li>
+                  <li>Remplacement ou modification des différentiels autorisés, sauf pour des rapports de transmission rapide.</li>
+                  <li>L'essieu arrière doit rester fixé aux points d'origine du châssis.</li>
+                </ul>
               </div>
 
-              <div class="mt-3">
+              <div data-aos="fade-up" class="mt-3">
                 <h4>3. Suspension et Direction</h4>
                 <ul class="list-disc ml-3 md:ml-6 mt-1.5">
-                <li>
-                  Suspension modifiable, y compris bras ou triangles réglables, tant que la sécurité du véhicule n’est
-                  pas compromise.
-                </li>
-                <li>
-                  Barre anti-roulis et barres de renfort autorisées à l’avant et à l’arrière.
-                </li>
-                <li>
-                  Modifications de la direction avec kits spécifiques autorisées pour améliorer l’angle de braquage.
-                </li>
-              </ul>
+                  <li>
+                    Suspension modifiable, y compris bras ou triangles réglables, tant que la sécurité du véhicule n’est
+                    pas compromise.
+                  </li>
+                  <li>
+                    Barre anti-roulis et barres de renfort autorisées à l’avant et à l’arrière.
+                  </li>
+                  <li>
+                    Modifications de la direction avec kits spécifiques autorisées pour améliorer l’angle de braquage.
+                  </li>
+                </ul>
               </div>
 
-              <div class="mt-3">
+              <div data-aos="fade-up" class="mt-3">
                 <h4>4. Freins</h4>
                 <ul class="list-disc ml-3 md:ml-6 mt-1.5">
-                <li>
-                  Freins en parfait état obligatoire. Systèmes hydrauliques pour le frein à main autorisés, mais doivent
-                  fonctionner indépendamment ou en complément des systèmes standard.
-                </li>
-                <li>Remplacement des étriers et disques autorisé, ainsi que des tuyaux en métal.</li>
-                <li>
-                  Le frein à pied doit obligatoirement agir sur les quatre roues.
-                </li>
-              </ul>
+                  <li>
+                    Freins en parfait état obligatoire. Systèmes hydrauliques pour le frein à main autorisés, mais doivent
+                    fonctionner indépendamment ou en complément des systèmes standard.
+                  </li>
+                  <li>Remplacement des étriers et disques autorisé, ainsi que des tuyaux en métal.</li>
+                  <li>
+                    Le frein à pied doit obligatoirement agir sur les quatre roues.
+                  </li>
+                </ul>
               </div>
 
-              <div class="mt-3">
+              <div data-aos="fade-up" class="mt-3">
                 <h4>5. Pneus</h4>
                 <ul class="list-disc ml-3 md:ml-6 mt-1.5">
-                <li>Largeur maximale autorisée : 235 mm à l’arrière.</li>
-                <li>
-                  Pneus homologués pour usage routier uniquement. Pneus slicks strictement interdits.
-                </li>
-                <li>Aucune limitation sur le nombre de pneus utilisés par course.</li>
-              </ul>
+                  <li>Largeur maximale autorisée : 235 mm à l’arrière.</li>
+                  <li>
+                    Pneus homologués pour usage routier uniquement. Pneus slicks strictement interdits.
+                  </li>
+                  <li>Aucune limitation sur le nombre de pneus utilisés par course.</li>
+                </ul>
               </div>
 
-              <div class="mt-3">
+              <div data-aos="fade-up" class="mt-3">
                 <h4>6. Carrosserie</h4>
                 <ul class="list-disc ml-3 md:ml-6 mt-1.5">
                   <li>
@@ -146,7 +146,7 @@ import Title from '@/components/Title.vue'
                 </ul>
               </div>
 
-              <div class="mt-3">
+              <div data-aos="fade-up" class="mt-3">
                 <h4>7. Arceau de Sécurité</h4>
                 <ul class="list-disc ml-3 md:ml-6 mt-1.5">
                   <li>
@@ -159,7 +159,7 @@ import Title from '@/components/Title.vue'
                 </ul>
               </div>
 
-              <div class="mt-3">
+              <div data-aos="fade-up" class="mt-3">
                 <h4>8. Extincteur</h4>
                 <ul class="list-disc ml-3 md:ml-6 mt-1.5">
                   <li>Extincteur de 2 kg minimum obligatoire, solidement fixé et accessible au pilote.</li>
@@ -167,17 +167,17 @@ import Title from '@/components/Title.vue'
                 </ul>
               </div>
 
-              <div class="mt-3">
+              <div data-aos="fade-up" class="mt-3">
                 <h4>9. Règles Additionnelles</h4>
                 <ul class="list-disc ml-3 md:ml-6 mt-1.5">
-                <li>Coupe-circuit accessible depuis l’intérieur et l’extérieur du véhicule.</li>
-                <li>
-                  Feux de position et de freinage obligatoires, y compris un feu de freinage supplémentaire type LED
-                  visible à l’avant.
-                </li>
-                <li>Sièges baquets homologués FIA obligatoires (date d’expiration tolérée jusqu’à 3 ans).</li>
-                <li>Ceintures de sécurité à 5 points homologuées FIA obligatoires.</li>
-              </ul>
+                  <li>Coupe-circuit accessible depuis l’intérieur et l’extérieur du véhicule.</li>
+                  <li>
+                    Feux de position et de freinage obligatoires, y compris un feu de freinage supplémentaire type LED
+                    visible à l’avant.
+                  </li>
+                  <li>Sièges baquets homologués FIA obligatoires (date d’expiration tolérée jusqu’à 3 ans).</li>
+                  <li>Ceintures de sécurité à 5 points homologuées FIA obligatoires.</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -185,9 +185,9 @@ import Title from '@/components/Title.vue'
       </section>
 
       <section>
-        <h2 class="mb-2">3. Protections Individuelles Obligatoires</h2>
+        <h2 data-aos="fade-up" class="mb-2">3. Protections Individuelles Obligatoires</h2>
 
-        <div class="ml-3 md:ml-6 mt-3">
+        <div data-aos="fade-up" class="ml-3 md:ml-6 mt-3">
           <p>Les pilotes doivent porter :</p>
 
           <ul class="list-disc ml-3 md:ml-6 mt-3">
@@ -200,17 +200,17 @@ import Title from '@/components/Title.vue'
       </section>
 
       <section>
-        <h2 class="mb-2">4. Licences, Homologations et Assurances</h2>
+        <h2 data-aos="fade-up" class="mb-2">4. Licences, Homologations et Assurances</h2>
 
-        <div class="ml-4 md:ml-10 mt-3">
+        <div data-aos="fade-up" class="ml-4 md:ml-10 mt-3">
           <p>Les pilotes doivent respecter les réglementations approuvées par la FFSA, y compris les annexes spécifiques à chaque épreuve.</p>
         </div>
       </section>
 
       <section>
-        <h2 class="mb-2">5. Lignes de Course, Limites et Lieux</h2>
+        <h2 data-aos="fade-up" class="mb-2">5. Lignes de Course, Limites et Lieux</h2>
 
-        <div class="ml-3 md:ml-6 mt-3">
+        <div data-aos="fade-up" class="ml-3 md:ml-6 mt-3">
           <p>Les courses se déroulent sur différents types de circuits, tels que :</p>
 
           <ul class="list-disc ml-3 md:ml-6 mt-3">
@@ -223,9 +223,9 @@ import Title from '@/components/Title.vue'
       </section>
 
       <section>
-        <h2 class="mb-2">6. Équipes et Paddocks</h2>
+        <h2 data-aos="fade-up" class="mb-2">6. Équipes et Paddocks</h2>
 
-        <div class="ml-4 md:ml-10 mt-3">
+        <div data-aos="fade-up" class="ml-4 md:ml-10 mt-3">
           <ul class="list-disc">
             <li>Chaque équipe doit disposer d’un extincteur d’au moins 2 kg.</li>
             <li>Les véhicules doivent stationner dans des espaces désignés protégés par des bâches imperméables.</li>
@@ -235,9 +235,9 @@ import Title from '@/components/Title.vue'
       </section>
 
       <section>
-        <h2 class="mb-2">7. Modifications</h2>
+        <h2 data-aos="fade-up" class="mb-2">7. Modifications</h2>
 
-        <div class="ml-4 md:ml-10 mt-3">
+        <div data-aos="fade-up" class="ml-4 md:ml-10 mt-3">
           <ul class="list-disc">
             <li>Toute modification doit être approuvée par le comité d’organisation et la FFSA.</li>
             <li>En cas de litige, le comité décidera de l’interprétation correcte des règles.</li>
@@ -246,9 +246,9 @@ import Title from '@/components/Title.vue'
       </section>
 
       <section>
-        <h2 class="mb-2">8. Sanctions et Pénalités</h2>
+        <h2 data-aos="fade-up" class="mb-2">8. Sanctions et Pénalités</h2>
 
-        <div class="ml-3 md:ml-6 mt-3">
+        <div data-aos="fade-up" class="ml-3 md:ml-6 mt-3">
           <p>Les infractions aux règles techniques ou de comportement peuvent entraîner :</p>
 
           <ul class="list-disc ml-3 md:ml-6 mt-3">

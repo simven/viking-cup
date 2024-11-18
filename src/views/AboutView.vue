@@ -14,7 +14,7 @@ import ImageModalable from '@/components/ImageModalable.vue'
 
 
     <div class="flex flex-col mt-12 md:mt-20 gap-12 md:gap-20">
-      <div class="max-w-3xl mx-auto">
+      <div data-aos="fade-up" class="max-w-3xl mx-auto">
         <ImageModalable
           :img-class="'cursor-pointer rounded-xl w-[770px]'"
           :src="'/img/e30.webp'"
@@ -31,9 +31,9 @@ import ImageModalable from '@/components/ImageModalable.vue'
         </TitleSecondary>
 
         <div class="mt-10 md:mt-14">
-          <h3 class="text-center">VOTRE sécurité est NOTRE sérénité</h3>
+          <h3 data-aos="fade-up" class="text-center">VOTRE sécurité est NOTRE sérénité</h3>
 
-          <section class="mt-8">
+          <section data-aos="fade-up" class="mt-8">
             <p>Toujours fidèles à nos valeurs, nous nous engageons à vous proposer des événements de qualité.</p>
 
             <p>Le staff de la Viking!<span class="text-red">Cup</span> travaille d’arrache-pied depuis un certain temps, et nous avons enfin le plaisir de vous annoncer une grande nouvelle !</p>
@@ -54,7 +54,7 @@ import ImageModalable from '@/components/ImageModalable.vue'
             </p>
           </section>
 
-          <section class="mt-8">
+          <section data-aos="fade-up" class="mt-8">
             <h4>Ce que cela nous apporte d’être FFSA :</h4>
             <ul class="list-disc ml-3 md:ml-6">
               <li>
@@ -69,7 +69,7 @@ import ImageModalable from '@/components/ImageModalable.vue'
             </ul>
           </section>
 
-          <section class="mt-8">
+          <section data-aos="fade-up" class="mt-8">
             <h4>Ce que cela implique :</h4>
 
             <div class="ml-3 md:ml-6">
@@ -95,7 +95,7 @@ import ImageModalable from '@/components/ImageModalable.vue'
     </div>
 
 
-    <div class="grid grid-cols-4 w-full mt-10 md:mt-14">
+    <div data-aos="fade-up" class="grid grid-cols-4 w-full mt-10 md:mt-14">
       <div class="flex justify-center col-span-2">
         <a href="https://www.normandie-racing.fr" target="_blank">
           <img alt="Site Normandie Racing" src="/img/nr.webp" width="150" height="150" />
