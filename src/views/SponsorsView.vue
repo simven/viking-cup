@@ -25,13 +25,14 @@ function closeModal() {
 </script>
 
 <template>
-  <div class="flex flex-col justify-center items-center pt-6 sm:pt-14 max-w-7xl m-auto px-10 gap-10 md:gap-14 lg:gap-20">
+  <div class="flex flex-col justify-center items-center py-32 sm:py-40 max-w-7xl m-auto px-10 gap-10 md:gap-14 lg:gap-20">
     <Title>
       <template #title>NOS SPONSORS</template>
     </Title>
 
     <div class="grid grid-cols-4 gap-6 md:gap-10 w-full">
       <div
+        data-aos="fade-up"
         @click="openModal(sponsor)"
         v-for="(sponsor, index) in sponsors"
         :key="index"
