@@ -18,7 +18,7 @@ import Title from '@/components/Title.vue'
           target="_blank"
           title="Télécharger le règlement technique"
           class="bg-red rounded-md transition-all duration-200 hover:saturate-150 px-6 py-1">
-            <font-awesome-icon :icon="['fa', 'download']" size="md" />
+            <font-awesome-icon :icon="['fa', 'download']" />
         </a>
       </div>
 

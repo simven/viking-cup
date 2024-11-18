@@ -109,7 +109,7 @@ import ImageModalable from '@/components/ImageModalable.vue'
   </div>
 </template>
 
-<style>
+<style scoped>
 li {
   font-size: clamp(1rem, .8rem + .4vw, 1.2rem);
   line-height: 160%;

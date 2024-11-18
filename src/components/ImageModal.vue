@@ -21,16 +21,26 @@ const closeModal = () => {
   emit('close');
 };
 
+const handleEscape = (event: KeyboardEvent) => {
+  if (event.key === 'Escape') {
+    closeModal()
+    document.removeEventListener('keydown', handleEscape);
+  }
+}
+
 watch(() => props.isModalOpen, (newVal) => {
   if (newVal) {
     document.body.classList.add('overflow-hidden');
+    document.addEventListener('keydown', handleEscape);
   } else {
     document.body.classList.remove('overflow-hidden');
+    document.removeEventListener('keydown', handleEscape);
   }
 });
 
 onUnmounted(() => {
   document.body.classList.remove('overflow-hidden');
+  document.removeEventListener('keydown', handleEscape);
 });
 </script>
 
@@ -50,7 +60,7 @@ onUnmounted(() => {
           @click="closeModal"
           title="Fermer"
           class="absolute top-5 right-5 text-white rounded-xl p-2">
-          <font-awesome-icon :icon="['fa', 'x']" size="md" />
+          <font-awesome-icon :icon="['fa', 'x']" />
         </button>
       </div>
     </div>
