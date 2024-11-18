@@ -34,6 +34,16 @@ const router = createRouter({
       name: 'register',
       component: () => import('../views/RegisterView.vue'),
     },
+    {
+      path: '/billetterie',
+      name: 'ticketing',
+      component: () => import('../views/TicketingView.vue'),
+    },
+    {
+      path: '/mentions-legales',
+      name: 'legal-info',
+      component: () => import('../views/LegalInformationView.vue'),
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {

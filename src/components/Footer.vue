@@ -1,10 +1,14 @@
 <script setup lang="ts">
+import PartnersHeadband from '@/components/PartnersHeadband.vue'
+
 const currentYear = new Date().getFullYear();
 </script>
 
 <template>
   <footer id="footer" class="relative w-full bg-secondary">
-    <div class="grid footer-items gap-4 w-11/12	md:w-10/12 mx-auto pt-20 pb-10">
+    <PartnersHeadband />
+
+    <div class="grid grid-cols-8 gap-4 w-11/12 md:w-10/12 mx-auto py-10">
       <ul class="flex flex-col p-2.5 gap-3 col-span-8 sm:col-span-4 md:col-span-2">
         <li>
           <h2>Menu</h2>
@@ -29,19 +33,26 @@ const currentYear = new Date().getFullYear();
             Comment participer
           </RouterLink>
         </li>
-        <li>
-          <RouterLink to="/sponsors" class="transition-all duration-300 ease-in-out hover:text-red">
-            Sponsors
-          </RouterLink>
-        </li>
+<!--        <li>-->
+<!--          <RouterLink to="/sponsors" class="transition-all duration-300 ease-in-out hover:text-red">-->
+<!--            Sponsors-->
+<!--          </RouterLink>-->
+<!--        </li>-->
         <li>
           <RouterLink to="/inscription" class="transition-all duration-300 ease-in-out hover:text-red">
             Inscription
           </RouterLink>
         </li>
         <li>
+          <RouterLink to="/billetterie" class="transition-all duration-300 ease-in-out hover:text-red">
+            Billetterie
+          </RouterLink>
+        </li>
+        <li>
           <div class="transition-all duration-300 ease-in-out hover:text-red">
+          <RouterLink to="/mentions-legales" class="transition-all duration-300 ease-in-out hover:text-red">
             Mentions légales
+          </RouterLink>
           </div>
         </li>
       </ul>
@@ -131,7 +142,4 @@ const currentYear = new Date().getFullYear();
 </template>
 
 <style scoped>
-.footer-items {
-  grid-template-columns: repeat(8, minmax(0, 1fr));
-}
 </style>

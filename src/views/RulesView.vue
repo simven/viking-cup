@@ -12,7 +12,7 @@ import Title from '@/components/Title.vue'
 
 
     <div class="mt-12 md:mt-20 flex flex-col gap-14 md:gap-20">
-      <div class="flex justify-center sm:justify-end">
+      <div data-aos="fade-up" class="flex justify-center sm:justify-end">
         <a
           href="/viking-cup-rules.pdf"
           target="_blank"

@@ -37,42 +37,47 @@ watch(
 
         <div class="flex sm:hidden items-center justify-center absolute inset-0 z-30">
           <RouterLink
-            to="/inscription"
+            to="/billetterie"
             class="font-finder text-sm bg-red rounded-md px-3 py-2 text-md transition-all duration-200 hover:saturate-150">
-            S'INSCRIRE
+            BILLETTERIE
           </RouterLink>
         </div>
 
         <!-- NavBar | Desktop -->
         <ul class="hidden sm:flex flex-row items-center text-center p-2.5 gap-2 md:gap-3">
           <li class="hidden md:block">
-            <RouterLink to="/" activeClass="bg-black" class="rounded-md px-1 md:px-2 lg:px-5 py-1.5 transition-all duration-200 ease-in-out hover:bg-black">
+            <RouterLink to="/" activeClass="bg-primary" class="rounded-md px-1 md:px-2 lg:px-5 py-1.5 transition-all duration-200 ease-in-out hover:bg-primary">
               Accueil
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/a-propos" activeClass="bg-black" class="rounded-md px-1 md:px-2 lg:px-5 py-1.5 transition-all duration-200 ease-in-out hover:bg-black">
+            <RouterLink to="/a-propos" activeClass="bg-primary" class="rounded-md px-1 md:px-2 lg:px-5 py-1.5 transition-all duration-200 ease-in-out hover:bg-primary">
               Viking!<span class="text-red">Cup</span>
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/regles" activeClass="bg-black" class="rounded-md px-1 md:px-2 lg:px-5 py-1.5 transition-all duration-200 ease-in-out hover:bg-black">
+            <RouterLink to="/regles" activeClass="bg-primary" class="rounded-md px-1 md:px-2 lg:px-5 py-1.5 transition-all duration-200 ease-in-out hover:bg-primary">
               Règles
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/participer" activeClass="bg-black" class="rounded-md px-1 md:px-2 lg:px-5 py-1.5 transition-all duration-200 ease-in-out hover:bg-black">
+            <RouterLink to="/participer" activeClass="bg-primary" class="rounded-md px-1 md:px-2 lg:px-5 py-1.5 transition-all duration-200 ease-in-out hover:bg-primary">
               Comment participer
             </RouterLink>
           </li>
+<!--          <li>-->
+<!--            <RouterLink to="/sponsors" activeClass="bg-primary" class="rounded-md px-1 md:px-2 lg:px-5 py-1.5 transition-all duration-200 ease-in-out hover:bg-primary">-->
+<!--              Sponsors-->
+<!--            </RouterLink>-->
+<!--          </li>-->
           <li>
-            <RouterLink to="/sponsors" activeClass="bg-black" class="hidden rounded-md px-1 md:px-2 lg:px-5 py-1.5 transition-all duration-200 ease-in-out hover:bg-black">
-              Sponsors
+            <RouterLink to="/inscription" active-class="brightness-100" class="font-bold bg-black rounded-md px-1 md:px-2 lg:px-5 py-1.5 transition-all duration-300 hover:bg-white hover:text-black">
+              Inscription
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/inscription" class="font-bold bg-red rounded-md px-1 md:px-2 lg:px-5 py-1.5 transition-all duration-200 hover:saturate-150">
-              Inscription
+            <RouterLink to="/billetterie" class="font-bold bg-red rounded-md px-1 md:px-2 lg:px-5 py-1.5 transition-all duration-200 hover:saturate-150">
+              Billetterie
             </RouterLink>
           </li>
         </ul>
@@ -89,33 +94,38 @@ watch(
       <transition name="slide-down">
         <ul v-if="isMobileMenuOpen" class="fixed inset-0 overflow-y-auto w-screen h-screen bg-secondary flex flex-col p-12 pt-16 gap-8 font-finder text-xl z-40">
           <li class="delay-[200ms]">
-            <RouterLink to="/" activeClass="bg-black" class="rounded-md px-5 py-1.5 hover:bg-black">
+            <RouterLink to="/" activeClass="bg-primary" class="rounded-md px-5 py-1.5 hover:bg-primary">
               Accueil
             </RouterLink>
           </li>
           <li class="delay-[220ms]">
-            <RouterLink to="/a-propos" activeClass="bg-black" class="rounded-md px-5 py-1.5 hover:bg-black">
+            <RouterLink to="/a-propos" activeClass="bg-primary" class="rounded-md px-5 py-1.5 hover:bg-primary">
               Viking!<span class="text-red">Cup</span>
             </RouterLink>
           </li>
           <li class="delay-[240ms]">
-            <RouterLink to="/regles" activeClass="bg-black" class="rounded-md px-5 py-1.5 hover:bg-black">
+            <RouterLink to="/regles" activeClass="bg-primary" class="rounded-md px-5 py-1.5 hover:bg-primary">
               Règles
             </RouterLink>
           </li>
           <li class="delay-[260ms]">
-            <RouterLink to="/participer" activeClass="bg-black" class="rounded-md px-5 py-1.5 hover:bg-black">
+            <RouterLink to="/participer" activeClass="bg-primary" class="rounded-md px-5 py-1.5 hover:bg-primary">
               Comment participer
             </RouterLink>
           </li>
-          <li class="delay-[280ms] hidden">
-            <RouterLink to="/sponsors" activeClass="bg-black" class="rounded-md px-5 py-1.5 hover:bg-black">
-              Sponsors
+<!--          <li class="delay-[280ms]">-->
+<!--            <RouterLink to="/sponsors" activeClass="bg-primary" class="rounded-md px-5 py-1.5 hover:bg-primary">-->
+<!--              Sponsors-->
+<!--            </RouterLink>-->
+<!--          </li>-->
+          <li class="delay-[300ms]">
+            <RouterLink to="/inscription" class="font-bold bg-black rounded-md px-5 py-1.5 transition-all duration-200">
+              Inscription
             </RouterLink>
           </li>
           <li class="delay-[300ms]">
-            <RouterLink to="/inscription" class="font-bold bg-red rounded-md px-5 py-1.5 transition-all duration-200 hover:saturate-150">
-              Inscription
+            <RouterLink to="/billetterie" class="font-bold bg-red rounded-md px-5 py-1.5 transition-all duration-200 hover:saturate-150">
+              Billetterie
             </RouterLink>
           </li>
         </ul>
