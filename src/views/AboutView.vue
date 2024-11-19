@@ -39,7 +39,7 @@ import ImageModalable from '@/components/ImageModalable.vue'
             <p>Le staff de la Viking!Cup travaille d’arrache-pied depuis un certain temps, et nous avons enfin le plaisir de vous annoncer une grande nouvelle !</p>
 
             <div class="flex justify-center">
-              <p class="p-4 font-bold my-4 rounded-r-xl bg-primary-light border-l-4 border-red w-fit">Le Championnat de la Viking!Cup devient un championnat FFSA inscrit au calendrier FFSA ! 🇫🇷</p>
+              <p class="p-4 font-bold my-4 rounded-r-xl bg-primary-light border-l-4 border-red w-fit">Les 3 manches de la Viking!Cup intègre le calendrier de la FFSA ! 🇫🇷</p>
             </div>
 
             <p>

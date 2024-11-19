@@ -9,7 +9,7 @@ import TitleSecondary from '@/components/TitleSecondary.vue'
       <template #title>Comment participer ?</template>
     </Title>
 
-    <p data-aos="fade-up" class="py-">Pour participer, inscrivez-vous en ligne et choisissez votre formule : La formule saison complète qui donne accès aux trois dates de l’année pour tenter de remporter la Viking!CUP ou bien la formule journée unique qui donne accès à une seule journée pour le plaisir. Le grand gagnant du championnat annuel en semi-pro aura accès au Championnat de France de Drift 2026 ! Les places sont limitées, alors réservez <span class="whitespace-nowrap">vite !</span></p>
+    <p data-aos="fade-up">Pour participer, inscrivez-vous en ligne et choisissez votre formule : La formule saison complète qui donne accès aux trois dates de l’année pour tenter de remporter la Viking!CUP ou bien la formule journée unique qui donne accès à une seule journée pour le plaisir. Le grand gagnant du championnat annuel en semi-pro aura accès au Championnat de France de Drift 2026 ! Les places sont limitées, alors réservez <span class="whitespace-nowrap">vite !</span></p>
 
     <div class="grid grid-cols-2 gap-14 md:gap-10">
       <div class="col-span-2 md:col-span-1 flex flex-col items-center">
