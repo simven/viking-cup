@@ -36,10 +36,10 @@ import ImageModalable from '@/components/ImageModalable.vue'
           <section data-aos="fade-up" class="mt-8">
             <p>Toujours fidèles à nos valeurs, nous nous engageons à vous proposer des événements de qualité.</p>
 
-            <p>Le staff de la Viking!<span class="text-red">Cup</span> travaille d’arrache-pied depuis un certain temps, et nous avons enfin le plaisir de vous annoncer une grande nouvelle !</p>
+            <p>Le staff de la Viking!Cup travaille d’arrache-pied depuis un certain temps, et nous avons enfin le plaisir de vous annoncer une grande nouvelle !</p>
 
             <div class="flex justify-center">
-              <p class="p-4 font-bold my-4 rounded-r-xl bg-primary-light border-l-4 border-red w-fit">Le Championnat de la Viking!<span class="text-red font-bold">Cup</span> devient un championnat FFSA inscrit au calendrier FFSA ! 🇫🇷</p>
+              <p class="p-4 font-bold my-4 rounded-r-xl bg-primary-light border-l-4 border-red w-fit">Le Championnat de la Viking!Cup devient un championnat FFSA inscrit au calendrier FFSA ! 🇫🇷</p>
             </div>
 
             <p>
@@ -64,7 +64,7 @@ import ImageModalable from '@/components/ImageModalable.vue'
                 Le vainqueur de la catégorie Semi-Pro gagnera sa place en catégorie Pro au CFD en 2026.
               </li>
               <li>
-                Le vainqueur de la catégorie Loisir gagnera sa place en catégorie Semi-Pro à la Viking!<span class="text-red">Cup</span> en 2026.
+                Le vainqueur de la catégorie Loisir gagnera sa place en catégorie Semi-Pro à la Viking!Cup en 2026.
               </li>
             </ul>
           </section>

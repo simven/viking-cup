@@ -20,7 +20,7 @@ const currentYear = new Date().getFullYear();
         </li>
         <li>
           <RouterLink to="/a-propos" class="transition-all duration-300 ease-in-out hover:text-red">
-            Viking!<span class="text-red">Cup</span>
+            Viking!Cup
           </RouterLink>
         </li>
         <li>
@@ -33,11 +33,11 @@ const currentYear = new Date().getFullYear();
             Comment participer
           </RouterLink>
         </li>
-<!--        <li>-->
-<!--          <RouterLink to="/sponsors" class="transition-all duration-300 ease-in-out hover:text-red">-->
-<!--            Sponsors-->
-<!--          </RouterLink>-->
-<!--        </li>-->
+        <li>
+          <RouterLink to="/sponsors" class="transition-all duration-300 ease-in-out hover:text-red">
+            Sponsors
+          </RouterLink>
+        </li>
         <li>
           <RouterLink to="/inscription" class="transition-all duration-300 ease-in-out hover:text-red">
             Inscription

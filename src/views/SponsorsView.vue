@@ -10,6 +10,8 @@ export interface SponsorLink {
 
 const sponsors = ref<{ name: string, desc: string, src: string, alt: string, links: SponsorLink[] }[]>([
   { name: 'Normandie Racing', desc: 'Association Sport Mécanique', src: '/img/nr.webp', alt: 'NR', links: [{ icon: ['fa', 'link'], url: 'https://www.normandie-racing.fr' }, { icon: ['fab', 'facebook-f'], url: 'https://www.facebook.com/normandieracing' }] },
+  { name: 'Viking Drinks', desc: 'Marque de Boissons', src: '/img/vk-drinks.webp', alt: 'VK Drinks', links: [{ icon: ['fa', 'link'], url: 'https://www.normandie-racing.fr' }, { icon: ['fab', 'facebook-f'], url: 'https://www.facebook.com/normandieracing' }] },
+  { name: 'Divaret Seigneur', desc: 'Fournisseur de Matériel Agricole', src: '/img/divaret-seigneur.webp', alt: 'Divaret Seigneur', links: [{ icon: ['fa', 'link'], url: 'https://divaretseigneur.com' }, { icon: ['fab', 'facebook-f'], url: 'https://www.facebook.com/divaretseigneur' }] },
 ]);
 const showModal = ref<boolean>(false);
 const selectedSponsor = ref<{ name: string, desc: string, src: string, alt: string, links: SponsorLink[] }|null>(null);
@@ -36,10 +38,10 @@ function closeModal() {
         @click="openModal(sponsor)"
         v-for="(sponsor, index) in sponsors"
         :key="index"
-        class="col-span-4 md:col-span-2 2xl:col-span-1 bg-primary-light hover:bg-white rounded-xl backdrop-blur-md cursor-pointer transition-all duration-300 ease-in-out hover:saturate-150 hover:-translate-y-1">
+        class="col-span-2 lg:col-span-1 bg-primary-light hover:bg-white rounded-xl backdrop-blur-md cursor-pointer transition-all duration-300 ease-in-out saturate-120 hover:saturate-150 hover:-translate-y-1">
 
         <div class="flex justify-center items-center p-2">
-          <img :src="sponsor.src" :alt="sponsor.alt" class="w-40 h-40" />
+          <img :src="sponsor.src" :alt="sponsor.alt" class="w-full max-w-40 max-h-40" />
         </div>
 
       </div>
