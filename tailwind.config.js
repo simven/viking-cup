@@ -30,6 +30,9 @@ export default {
       },
       saturate: {
         120: 1.20,
+      },
+      screens: {
+        '3xl': '2000px',
       }
     },
   },
