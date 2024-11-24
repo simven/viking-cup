@@ -62,16 +62,16 @@ const currentYear = new Date().getFullYear();
           <h2>NOUS AUSSI</h2>
         </li>
         <li>
-          <a href="https://www.normandie-racing.fr" target="_blank" class="flex items-center hover:text-red">
+          <a href="https://www.normandie-racing.fr" target="_blank" class="flex items-center transition-all duration-300 ease-in-out hover:text-red">
             <img src="/img/nr.webp" alt="NR" width="40" height="40" />
             <span class="pl-2">Normandie Racing</span>
           </a>
         </li>
         <li>
-          <div class="flex items-center">
+          <a href="" class="flex items-center transition-all duration-300 ease-in-out hover:text-red">
             <img src="/img/vk-cup.webp" alt="Viking Cup" class="w-10 h-10" width="40" height="40" />
             <span class="pl-2">Viking!Cup</span>
-          </div>
+          </a>
         </li>
         <li>
           <div class="flex items-center">

@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
       <img src="/img/bg-cfd.webp" alt="CFD" class="hidden md:block shadow-md absolute z-10 object-cover object-bottom w-full h-full brightness-90" />
       <img src="/img/cfd-ffsa-tag.webp" alt="CFD FFSA" class="hidden md:block bottom-5 left-5 absolute z-10 object-cover object-top" width="64" height="86" />
 
-      <div data-aos="fade-up" class="relative pt-16 sm:pt-24 px-6 z-20 3xl:mt-36">
+      <div data-aos="fade-up" class="relative pt-16 sm:pt-24 px-6 z-20 3xl:mt-28">
         <div class="grid grid-cols-1 md:grid-cols-5 gap-2 pt-4">
           <div class="col-span-1 md:col-span-2 flex justify-center items-center">
             <img alt="Viking Cup" src="/img/vk-cup-dates.webp" width="400" height="400" />
