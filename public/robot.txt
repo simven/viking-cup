@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
 
-Disallow: /sponsors
-
 Sitemap: https://viking-cup.fr/sitemap.xml
