@@ -29,11 +29,12 @@ onMounted(() => {
         <h3 data-aos="fade-up" class="mt-4">Réservez dès maintenant votre place pour assister à un show inoubliable.</h3>
       </div>
 
-      <div data-aos="fade-up" class="w-full text-center my-14">
+      <div data-aos="fade-up" class="w-full my-14">
         <a
           title="Réserver mes billets"
           href="https://www.billetweb.fr/shop.php?event=viking-cup-2025"
-          class="shop_frame font-finder bg-red rounded-md py-3 px-6 sm:py-4 sm:px-8 text-xl md:text-2xl transition-all duration-200 hover:saturate-150"
+          class="shop_frame w-fit mx-auto items-center font-finder bg-red rounded-md py-3 px-6 sm:py-4 sm:px-8 text-xl md:text-2xl transition-all duration-200 hover:saturate-150"
+          style="display: flex"
           target="_blank"
           data-src="https://www.billetweb.fr/shop.php?event=viking-cup-2025"
           data-max-width="100%"
