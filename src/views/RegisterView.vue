@@ -15,7 +15,7 @@ onMounted(() => {
   <div class="flex flex-col justify-center items-center py-32 sm:py-40 max-w-7xl m-auto px-10">
     <Title>
       <template #title>
-        Formulaire d'inscription
+        Inscription
       </template>
     </Title>
 
