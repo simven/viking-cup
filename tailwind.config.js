@@ -28,7 +28,12 @@ export default {
       lineHeight: {
         'title': 1.15
       },
-
+      saturate: {
+        120: 1.20,
+      },
+      screens: {
+        '3xl': '2000px',
+      }
     },
   },
   plugins: [],

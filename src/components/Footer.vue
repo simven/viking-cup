@@ -1,10 +1,14 @@
 <script setup lang="ts">
+import PartnersHeadband from '@/components/PartnersHeadband.vue'
+
 const currentYear = new Date().getFullYear();
 </script>
 
 <template>
   <footer id="footer" class="relative w-full bg-secondary">
-    <div class="grid footer-items gap-4 w-11/12	md:w-10/12 mx-auto pt-20 pb-10">
+    <PartnersHeadband />
+
+    <div class="grid grid-cols-8 gap-4 w-11/12 md:w-10/12 mx-auto py-10">
       <ul class="flex flex-col p-2.5 gap-3 col-span-8 sm:col-span-4 md:col-span-2">
         <li>
           <h2>Menu</h2>
@@ -16,7 +20,7 @@ const currentYear = new Date().getFullYear();
         </li>
         <li>
           <RouterLink to="/a-propos" class="transition-all duration-300 ease-in-out hover:text-red">
-            Viking!<span class="text-red">Cup</span>
+            Viking!Cup
           </RouterLink>
         </li>
         <li>
@@ -40,8 +44,15 @@ const currentYear = new Date().getFullYear();
           </RouterLink>
         </li>
         <li>
+          <RouterLink to="/billetterie" class="transition-all duration-300 ease-in-out hover:text-red">
+            Billetterie
+          </RouterLink>
+        </li>
+        <li>
           <div class="transition-all duration-300 ease-in-out hover:text-red">
+          <RouterLink to="/mentions-legales" class="transition-all duration-300 ease-in-out hover:text-red">
             Mentions légales
+          </RouterLink>
           </div>
         </li>
       </ul>
@@ -51,16 +62,16 @@ const currentYear = new Date().getFullYear();
           <h2>NOUS AUSSI</h2>
         </li>
         <li>
-          <a href="https://www.normandie-racing.fr" target="_blank" class="flex items-center hover:text-red">
+          <a href="https://www.normandie-racing.fr" target="_blank" class="flex items-center transition-all duration-300 ease-in-out hover:text-red">
             <img src="/img/nr.webp" alt="NR" width="40" height="40" />
             <span class="pl-2">Normandie Racing</span>
           </a>
         </li>
         <li>
-          <div class="flex items-center">
+          <a href="" class="flex items-center transition-all duration-300 ease-in-out hover:text-red">
             <img src="/img/vk-cup.webp" alt="Viking Cup" class="w-10 h-10" width="40" height="40" />
             <span class="pl-2">Viking!Cup</span>
-          </div>
+          </a>
         </li>
         <li>
           <div class="flex items-center">
@@ -131,7 +142,4 @@ const currentYear = new Date().getFullYear();
 </template>
 
 <style scoped>
-.footer-items {
-  grid-template-columns: repeat(8, minmax(0, 1fr));
-}
 </style>

@@ -79,7 +79,7 @@ const checkRules = () => {
 </script>
 
 <template>
-  <div class="flex flex-col justify-center items-center pt-6 sm:pt-14 max-w-7xl m-auto px-10 gap-10 md:gap-14 lg:gap-20">
+  <div data-aos="fade-up" class="flex flex-col justify-center items-center py-32 sm:py-40 max-w-7xl m-auto px-10 gap-10 md:gap-14 lg:gap-20">
     <Title>
       <template #title>
         Formulaire de pré-inscription
@@ -174,9 +174,9 @@ const checkRules = () => {
         <button
           :disabled="loading"
           :class="{ 'opacity-40': loading }"
-          class="font-finder bg-red rounded-md px-5 py-1.5 transition-all duration-200 hover:saturate-150"
+          class="font-finder bg-red rounded-md px-6 py-2 transition-all duration-200 hover:saturate-150"
           type="submit">
-          S'inscrire
+          <p>S'inscrire</p>
         </button>
       </div>
     </form>

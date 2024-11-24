@@ -39,6 +39,7 @@ const openModal = () => {
   <div>
     <!-- Image cliquable -->
     <img
+      data-aos="fade-up"
       @click="openModal"
       :src="src"
       :alt="alt"

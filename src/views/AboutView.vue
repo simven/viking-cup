@@ -5,7 +5,7 @@ import ImageModalable from '@/components/ImageModalable.vue'
 </script>
 
 <template>
-  <div class="flex flex-col justify-center items-center pt-6 sm:pt-14 max-w-7xl m-auto px-10">
+  <div class="flex flex-col justify-center items-center py-32 sm:py-40 max-w-7xl m-auto px-10">
     <Title>
       <template #title>
         <span class="whitespace-nowrap">Viking!<span class="text-red">Cup</span> ?</span>
@@ -31,15 +31,15 @@ import ImageModalable from '@/components/ImageModalable.vue'
         </TitleSecondary>
 
         <div class="mt-10 md:mt-14">
-          <h3 class="text-center">VOTRE sécurité est NOTRE sérénité</h3>
+          <h3 data-aos="fade-up" class="text-center">VOTRE sécurité est NOTRE sérénité</h3>
 
-          <section class="mt-8">
+          <section data-aos="fade-up" class="mt-8">
             <p>Toujours fidèles à nos valeurs, nous nous engageons à vous proposer des événements de qualité.</p>
 
-            <p>Le staff de la Viking!<span class="text-red">Cup</span> travaille d’arrache-pied depuis un certain temps, et nous avons enfin le plaisir de vous annoncer une grande nouvelle !</p>
+            <p>Le staff de la Viking!Cup travaille d’arrache-pied depuis un certain temps, et nous avons enfin le plaisir de vous annoncer une grande nouvelle !</p>
 
             <div class="flex justify-center">
-              <p class="p-4 font-bold my-4 rounded-r-xl bg-primary-light border-l-4 border-red w-fit">Le Championnat de la Viking!<span class="text-red font-bold">Cup</span> devient un championnat FFSA inscrit au calendrier FFSA !</p>
+              <p class="p-4 font-bold my-4 rounded-r-xl bg-primary-light border-l-4 border-red w-fit">Les 3 manches de la Viking!Cup intègre le calendrier de la FFSA ! 🇫🇷</p>
             </div>
 
             <p>
@@ -54,7 +54,7 @@ import ImageModalable from '@/components/ImageModalable.vue'
             </p>
           </section>
 
-          <section class="mt-8">
+          <section data-aos="fade-up" class="mt-8">
             <h4>Ce que cela nous apporte d’être FFSA :</h4>
             <ul class="list-disc ml-3 md:ml-6">
               <li>
@@ -64,12 +64,12 @@ import ImageModalable from '@/components/ImageModalable.vue'
                 Le vainqueur de la catégorie Semi-Pro gagnera sa place en catégorie Pro au CFD en 2026.
               </li>
               <li>
-                Le vainqueur de la catégorie Loisir gagnera sa place en catégorie Semi-Pro à la Viking!<span class="text-red">Cup</span> en 2026.
+                Le vainqueur de la catégorie Loisir gagnera sa place en catégorie Semi-Pro à la Viking!Cup en 2026.
               </li>
             </ul>
           </section>
 
-          <section class="mt-8">
+          <section data-aos="fade-up" class="mt-8">
             <h4>Ce que cela implique :</h4>
 
             <div class="ml-3 md:ml-6">
@@ -95,7 +95,7 @@ import ImageModalable from '@/components/ImageModalable.vue'
     </div>
 
 
-    <div class="grid grid-cols-4 w-full mt-10 md:mt-14">
+    <div data-aos="fade-up" class="grid grid-cols-4 w-full mt-10 md:mt-14">
       <div class="flex justify-center col-span-2">
         <a href="https://www.normandie-racing.fr" target="_blank">
           <img alt="Site Normandie Racing" src="/img/nr.webp" width="150" height="150" />

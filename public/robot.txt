@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /sponsors
 
-Sitemap: https://viking-cup.simonvennat.fr/sitemap.xml
+Sitemap: https://viking-cup.fr/sitemap.xml
