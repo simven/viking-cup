@@ -40,6 +40,7 @@ function closeModal() {
         @click="openModal(sponsor)"
         v-for="(sponsor, index) in sponsors"
         :key="index"
+        :title="sponsor.name"
         class="col-span-2 lg:col-span-1 bg-primary-light hover:bg-white rounded-xl backdrop-blur-md cursor-pointer transition-all duration-300 ease-in-out saturate-120 hover:saturate-150 hover:-translate-y-1">
 
         <div class="flex justify-center items-center p-2">

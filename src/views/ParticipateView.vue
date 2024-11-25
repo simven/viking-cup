@@ -74,8 +74,8 @@ import TitleSecondary from '@/components/TitleSecondary.vue'
             <div class="flex items-center gap-5">
               <font-awesome-icon class="text-red" :icon="['fas', 'envelope']" size="2xl" />
 
-              <a class="underline" href="mailto:vikingcup14@gmail.com">
-                <h3>vikingcup14@gmail.com</h3>
+              <a class="underline" href="mailto:contact@viking-cup.fr">
+                <h3>contact@viking-cup.fr</h3>
               </a>
             </div>
 

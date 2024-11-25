@@ -124,9 +124,9 @@ const currentYear = new Date().getFullYear();
           <h2>Contact</h2>
         </li>
         <li>
-          <a href="mailto:vikingcup14@gmail.com" class="flex items-center gap-3 hover:text-red">
+          <a href="mailto:contact@viking-cup.fr" class="flex items-center gap-3 hover:text-red">
             <font-awesome-icon class="" :icon="['fas', 'envelope']" size="lg" />
-            vikingcup14@gmail.com
+            contact@viking-cup.fr
           </a>
         </li>
       </ul>
