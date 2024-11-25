@@ -32,7 +32,7 @@ import Title from '@/components/Title.vue'
             <li>Contrôles techniques obligatoires avant chaque compétition.</li>
             <li>Catégories de véhicules : Loisir et Semi-Pro.</li>
             <li>Autorisation : propulsion arrière ou 4 roues motrices converties en propulsion arrière.</li>
-            <li>Interdictions : traction avant convertie, châssis tubulaires.</li>
+            <li>Interdictions : diesel, traction avant convertie, châssis tubulaires.</li>
             <li>Carrosserie en bon état avec peinture récente obligatoire.</li>
           </ul>
         </div>
@@ -49,6 +49,7 @@ import Title from '@/components/Title.vue'
               <li>Puissance recommandée : 150 à 300 chevaux.</li>
               <li>Véhicules de série à propulsion arrière uniquement.</li>
               <li>Idéal pour découvrir la compétition.</li>
+              <li class="font-bold">Éthanol fortement recommandé, SP98 acceptable.</li>
             </ul>
           </div>
 
@@ -77,7 +78,7 @@ import Title from '@/components/Title.vue'
                     Puissance recommandée : entre 300 et 450 chevaux. Pas de limitation maximale de puissance, mais
                     les pneus arrière limités à 235 mm influencent les performances optimales.
                   </li>
-                  <li>Le protoxyde d'azote (NOS) est strictement interdit.</li>
+                  <li>Le protoxyde d'azote (NOS) ainsi que le SP95/98 sont strictement interdits. Éthanol E85 obligatoire.</li>
                 </ul>
               </div>
 

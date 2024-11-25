@@ -20,6 +20,11 @@ onMounted(() => {
     </Title>
 
     <div class="w-full mt-12 md:mt-16">
+      <div class="text-center">
+        <div data-aos="fade-up">
+          <p>Rejoignez la compétition en vous inscrivant dès maintenant ! Que vous soyez dans la catégorie Loisir ou Semi-Pro, la Viking!Cup vous offre l’opportunité unique de vivre votre passion du drift dans une ambiance conviviale et compétitive.</p>
+        </div>
+      </div>
 
       <div data-aos="fade-up" class="w-full my-14">
         <a

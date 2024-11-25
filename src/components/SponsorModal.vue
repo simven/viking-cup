@@ -44,17 +44,17 @@ onUnmounted(() => {
       v-if="isModalOpen && sponsor"
       class="fixed inset-0 bg-black flex justify-center items-center bg-opacity-70 z-50"
       @click="closeModal">
-      <div class="relative m-auto bg-primary-light rounded-lg flex justify-center items-center p-10" @click.stop>
-        <div class="flex flex-col">
-          <div class="grid grid-cols-2">
+      <div class="relative m-auto bg-primary-light rounded-lg flex justify-center items-center p-6 md:p-10 max-w-[90%]" @click.stop>
+        <div class="flex flex-col gap-6">
+          <div class="flex flex-col sm:flex-row sm:gap-6 md:gap-20">
             <img
               :src="sponsor.src"
               :alt="sponsor.alt"
               class="rounded-lg w-40 h-40" />
 
-            <div class="col-span-1">
+            <div class="">
               <h2>{{sponsor.name}}</h2>
-              <p class="text-sm">{{sponsor.desc}}</p>
+              <p class="text-sm" v-html="sponsor.desc"></p>
             </div>
           </div>
 
