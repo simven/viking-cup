@@ -22,7 +22,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
                 Viking!<span class="text-red">Cup</span> 2025
               </h1>
 
-              <p class="text-center">La première compétition régionale de drift en France</p>
+              <p class="text-center">Le premier challenge National de Drift en France</p>
             </div>
 
             <Countdown />
@@ -43,7 +43,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
         </div>
 
         <div class="text-center mt-20 md:mt-0">
-          <h2 class="leading-none">GAGNE TA PLACE POUR LE CFD 2026 !</h2>
+          <h2 class="leading-none">GAGNE UN MAX DE VISIBILITÉ POUR LE CFD 2026 !</h2>
         </div>
       </div>
     </div>
