@@ -54,7 +54,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
         <p class="py-4">Pour cette première édition, la <span class="font-finder">VIKING!<span class="text-red">CUP</span></span> se déroulera en Ile de France au circuit de la Ferté Gaucher.</p>
 
-        <p>Dans le but de maximiser le temps de roulage pour tous, un système de double piste est mis en place. Une piste <span class="font-finder text-red">COMPETITION</span> réservé au déroulement de la <span class="font-finder">VIKING!<span class="text-red">CUP</span></span> et une piste <span class="font-finder text-red">LOISIR</span> accessible à tout les inscrits.</p>
+        <p>Dans le but de maximiser le temps de roulage pour tous, un système de double piste est mis en place. Une piste <span class="font-finder text-red">COMPETITION</span> réservé au déroulement de la <span class="font-finder">VIKING!<span class="text-red">CUP</span></span> et une piste <span class="font-finder text-red">LOISIR</span> accessible à tous les inscrits.</p>
       </div>
 
       <div class="max-w-4xl mx-auto">

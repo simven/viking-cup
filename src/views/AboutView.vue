@@ -81,7 +81,7 @@ import ImageModalable from '@/components/ImageModalable.vue'
                   Nous serons intransigeants sur la réglementation de l’équipement pilote.
                 </li>
                 <li>
-                  Vous devrez obligatoirement être licencié de la FFSA (environ 180 € par an) ou souscrire un titre
+                  Vous devrez obligatoirement être licencié de la FFSA (184 € par an, plus 35 € de cotisation) ou souscrire un titre
                   de participation à chaque épreuve (44 € par épreuve). Bien que cela représente un coût supplémentaire,
                   il s'agit également d'une couverture importante pour vous, pilotes.
                 </li>

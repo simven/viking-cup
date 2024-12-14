@@ -228,7 +228,7 @@ import Title from '@/components/Title.vue'
 
         <div data-aos="fade-up" class="ml-4 md:ml-10 mt-3">
           <ul class="list-disc">
-            <li>Chaque équipe doit disposer d’un extincteur d’au moins 2 kg.</li>
+            <li>Chaque équipe doit disposer d’un extincteur d’au moins 6 kg.</li>
             <li>Les véhicules doivent stationner dans des espaces désignés protégés par des bâches imperméables.</li>
             <li>Les paddocks doivent être propres, organisés, et respecter le fair-play.</li>
           </ul>

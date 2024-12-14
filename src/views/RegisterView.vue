@@ -24,6 +24,12 @@ onMounted(() => {
         <div data-aos="fade-up">
           <p>Rejoignez la compétition en vous inscrivant dès maintenant ! Que vous soyez dans la catégorie Loisir ou Semi-Pro, la Viking!Cup vous offre l’opportunité unique de vivre votre passion du drift dans une ambiance conviviale et compétitive.</p>
         </div>
+
+        <div data-aos="fade-up" class="pt-6">
+          <RouterLink to="/regles" class="font-bold bg-red rounded-md px-5 py-1.5 transition-all duration-200 hover:saturate-150">
+            Consulter les règles
+          </RouterLink>
+        </div>
       </div>
 
       <div data-aos="fade-up" class="w-full my-14">
